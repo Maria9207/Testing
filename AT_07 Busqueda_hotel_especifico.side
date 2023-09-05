@@ -1,0 +1,127 @@
+{
+  "id": "76f43760-bc39-4c98-ba7a-340435d65494",
+  "version": "2.0",
+  "name": "Booking tests",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "580ec4dd-249a-41bd-9ab0-aa7ca97a1156",
+    "name": "01 busqueda por hotel especifico",
+    "commands": [{
+      "id": "50679559-104a-4a87-be1e-a145d93efa4e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Areyv6cGwAIB0gIkZWZiYTRkNmQtZmIyZS00ZDY2LTgwYzgtZDY5NGRlZWY4ODg12AIF4AIB&sid=9aa6a16051e7ee644c4cdb802c932183&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd0a91a2-c6e9-469a-b60e-24d7072e1c58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eaf6d90-da84-417a-9294-e07a761437c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eac0b6e5ba > .bf9a32efa5 > svg",
+      "targets": [
+        ["css=.eac0b6e5ba > .bf9a32efa5 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "27416453-b636-4514-be1d-b3c3ee41db04",
+      "comment": "",
+      "command": "type",
+      "target": "id=:re:",
+      "targets": [
+        ["id=:re:", "id"],
+        ["name=ss", "name"],
+        ["css=#\\3Are\\3A", "css:finder"],
+        ["xpath=//input[@id=':re:']", "xpath:attributes"],
+        ["xpath=//div[@id='indexsearch']/div[2]/div/form/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hotel termales tierra viva"
+    }, {
+      "id": "ead2a095-dfef-4f3d-8570-8085b5f1ba55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a3332d346a",
+      "targets": [
+        ["css=.a3332d346a", "css:finder"],
+        ["xpath=//div[@id='indexsearch']/div[2]/div/form/div/div/div/div/div[2]/div/ul/li/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ec204f9-1788-4fa0-8ed5-a4e6d0403f2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d47738b911:nth-child(2)",
+      "targets": [
+        ["css=.d47738b911:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='indexsearch']/div[2]/div/form/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'jue, 30 nov')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b616d7f-4396-47c1-a872-ec6d5d98e646",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d358556c65:nth-child(2) tr:nth-child(2) > .b80d5adb18:nth-child(2) > .cf06f772fa > span",
+      "targets": [
+        ["css=.d358556c65:nth-child(2) tr:nth-child(2) > .b80d5adb18:nth-child(2) > .cf06f772fa > span", "css:finder"],
+        ["xpath=//div[@id='calendar-searchboxdatepicker']/div/div/div/div[2]/table/tbody/tr[2]/td[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody/tr[2]/td[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f7a2fed-75a1-4354-8dfa-e9c68c657057",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d358556c65:nth-child(2) tr:nth-child(2) > .b80d5adb18:nth-child(7) > .cf06f772fa",
+      "targets": [
+        ["css=.d358556c65:nth-child(2) tr:nth-child(2) > .b80d5adb18:nth-child(7) > .cf06f772fa", "css:finder"],
+        ["xpath=//div[@id='calendar-searchboxdatepicker']/div/div/div/div[2]/table/tbody/tr[2]/td[7]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody/tr[2]/td[7]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf9eca4d-faa2-43f6-99e2-a45a47045507",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d2529514af > .e4adce92df",
+      "targets": [
+        ["css=.d2529514af > .e4adce92df", "css:finder"],
+        ["xpath=//div[@id='indexsearch']/div[2]/div/form/div/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52aa1d68-52d0-4add-81bd-b0edfce66e74",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.a23c043802",
+      "targets": [
+        ["css=.c12ee2f811", "css:finder"],
+        ["xpath=//div[@id='search_results_table']/div[2]/div/div/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "Hotel Termales Tierra Viva"
+    }]
+  }],
+  "suites": [{
+    "id": "806c478a-6151-4978-982d-d9aecf0cfd5d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}

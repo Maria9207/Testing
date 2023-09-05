@@ -1,0 +1,161 @@
+{
+  "id": "91873ad2-14d9-4994-8d04-49e315369c4f",
+  "version": "2.0",
+  "name": "Booking",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "9ee90a99-1501-4686-9055-a12c19d4a784",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "15e111f0-3c81-4631-8665-eab8e38dc450",
+    "name": "Inicio de Sesión",
+    "commands": [{
+      "id": "98aa1775-9e00-4bdf-ad18-389f7e54ddf9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Apmrv6cGwAIB0gIkNDQwY2QyZmQtNTRkZC00M2Y0LWFhYzAtYjk1YjgyODUzODk12AIF4AIB&sid=8e0bd8551c47607c5260ac84ad195fb0&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ff33e12-8503-478b-b9f1-59d7da2a6626",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c9d6929-9146-4fdd-992b-ac35d234f67b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-header-login-link",
+      "targets": [
+        ["css=.js-header-login-link", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=es&aid=304142&bkng_action=index&prompt=signin&state=UpcDFhnWQro15g8ldeAcXPQyRQU8nfdu5X5a9JVUDDPbjR1Wrd0fSEbj-UupYJ4qdp6hmZgf7VYpSuvMnvyP0NHRcKbvvP1DH9yPPut4DCp35XRGXNQwe3HGP3SywWO6rMGUp6o5PDq3iFsEK4qEfRTUj-jpbLhiiZP8m34RfzhDHclqYFp3fskGcpw7fSD3R_v5uovDrKHtrRGPB95hg_JT8fsj2vw50KrIPWE7Ng0tIALgQFJm2W_1CXsML0pfWGHMBys7-JFbdeoDmKd2u64oBzVB5iz7TrQCkJZnPeYkORUamyyp-xri1sWRWDU1qOpwKfc-jw1Ctelz2J-zbD4CWdDeW938_0ICAQgT5fYKttt2lJyO6806cBqH5JV3DNxfDD-7tHQbMdLjjOZCbArPZwNO_3dSUUmPCA8WAJivlFr8yp_ZutlVaAuzgPzJLx4fsyOGmFz_RnNDQm8BCHG0OpDM59dG0ZjwgMFwMJQQMt98Ck3_keca4jT3ikk2u9EpsLskw-APO8Hx5TwJEWWjvSj-MXDIUR0%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//div[2]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f1099a-a62e-462b-9f26-fb742d59343e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.access-panel__social-button-google",
+      "targets": [
+        ["css=.access-panel__social-button-google", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[4]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/social/consent/google?op_token=EgVvYXV0aCKqBQoUdk8xS2Jsazd4WDl0VW4yY3BaTFMSCWF1dGhvcml6ZRo1aHR0cHM6Ly9zZWN1cmUuYm9va2luZy5jb20vbG9naW4uaHRtbD9vcD1vYXV0aF9yZXR1cm4qyQRVcGNERmhuV1FybzE1ZzhsZGVBY1hQUXlSUVU4bmZkdTVYNWE5SlZVRERQYmpSMVdyZDBmU0Viai1VdXBZSjRxZHA2aG1aZ2Y3VllwU3V2TW52eVAwTkhSY0tidnZQMURIOXlQUHV0NERDcDM1WFJHWE5Rd2UzSEdQM1N5d1dPNnJNR1VwNm81UERxM2lGc0VLNHFFZlJUVWotanBiTGhpaVpQOG0zNFJmemhESGNscVlGcDNmc2tHY3B3N2ZTRDNSX3Y1dW92RHJLSHRyUkdQQjk1aGdfSlQ4ZnNqMnZ3NTBLcklQV0U3TmcwdElBTGdRRkptMldfMUNYc01MMHBmV0dITUJ5czctSkZiZGVvRG1LZDJ1NjRvQnpWQjVpejdUclFDa0pablBlWWtPUlVhbXl5cC14cmkxc1dSV0RVMXFPcHdLZmMtancxQ3RlbHoySi16YkQ0Q1dkRGVXOTM4XzBJQ0FRZ1Q1ZllLdHR0MmxKeU82ODA2Y0JxSDVKVjNETnhmREQtN3RIUWJNZExqak9aQ2JBclBad05PXzNkU1VVbVBDQThXQUppdmxGcjh5cF9adXRsVmFBdXpnUHpKTHg0ZnN5T0dtRnpfUm5ORFFtOEJDSEcwT3BETTU5ZEcwWmp3Z01Gd01KUVFNdDk4Q2szX2tlY2E0alQzaWtrMnU5RXBzTHNrdy1BUE84SHg1VHdKRVdXanZTai1NWERJVVIwPSpleUpwWkNJNkluUnlZWFpsYkd4bGNsOW9aV0ZrWlhJaWZRPT1CBGNvZGUqKQiOyBIwmJ_w0t7AJjoAQgBYnqu_pwaSARB0cmF2ZWxsZXJfaGVhZGVy')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6604",
+      "windowTimeout": 2000
+    }, {
+      "id": "16575d38-ccad-4e76-a8ee-35ae575c3a89",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc70a4ee-7326-4625-936c-4cd7715fc935",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6604}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1d4d894-a5f6-4fe0-9a10-84a3cc535956",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdeff04c-cb13-437b-8ca8-e6fa6617fe5b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48b9c4f5-a1fe-457a-96fb-8ea7989b72d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ed3971de08",
+      "targets": [
+        ["css=.ed3971de08", "css:finder"],
+        ["xpath=//img[contains(@src,'https://lh3.googleusercontent.com/a/AAcHTtchgcLAqZwteC709GbNv4ELcp4YY4WWw6k7sKXxdXBmjUU=s96-c64')]", "xpath:img"],
+        ["xpath=//body[@id='b2indexPage']/div[3]/div/header/nav/div[2]/button[2]/span/div/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "586d5f9d-0373-4844-8722-238faded5d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aaee4e7cd3 > .e1eebb6a1e",
+      "targets": [
+        ["css=.aaee4e7cd3 > .e1eebb6a1e", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[18]/div/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccebf934-138b-4973-b61d-bdf9cd791c64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aaee4e7cd3 > .e1eebb6a1e",
+      "targets": [
+        ["css=.aaee4e7cd3 > .e1eebb6a1e", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[18]/div/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde239f8-2098-41e6-8ca4-4b29b419b0f3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.aaee4e7cd3 > .e1eebb6a1e",
+      "targets": [
+        ["css=.aaee4e7cd3 > .e1eebb6a1e", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[18]/div/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b1939db-59e9-45cc-a663-a01d9f248f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aaee4e7cd3 > .e1eebb6a1e",
+      "targets": [
+        ["css=.aaee4e7cd3 > .e1eebb6a1e", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[18]/div/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f9de30-b631-4d5d-89d3-2bb89e0ae0b1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.aaee4e7cd3 > .e1eebb6a1e",
+      "targets": [
+        ["css=.aaee4e7cd3 > .e1eebb6a1e", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[21]/div/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Catalina Correa"
+    }]
+  }],
+  "suites": [{
+    "id": "3dd874da-5ec8-4449-bd73-4d5e5c699171",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ee90a99-1501-4686-9055-a12c19d4a784"]
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}

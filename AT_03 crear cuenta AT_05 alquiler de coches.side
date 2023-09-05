@@ -1,0 +1,350 @@
+{
+  "id": "aaf1cbd6-1e03-4c93-bf89-6060a190a1cc",
+  "version": "2.0",
+  "name": "booking_grupo006",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "c98bb25a-380b-46fb-bef9-3791ab4ba04f",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5294ae59-d3b1-470e-81de-372f0b93a704",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQ_YAQHoAQGIAgGoAgO4Asi7uqcGwAIB0gIkNzllOTk2NzMtNGVmMy00YTg2LTkyNTItZmY3ZTkxM2MxMzFl2AIF4AIB&sid=77a74f17e5eaba1f9f0f84d886477f2a&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb811473-861e-424d-a103-06426def6d26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec3984fc-669a-4745-8ed5-1549baf1abcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Hazte una cuenta",
+      "targets": [
+        ["linkText=Hazte una cuenta", "linkText"],
+        ["css=.a83ed08757:nth-child(5)", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=es&aid=304142&bkng_action=index&prompt=signin&state=UpcDTQfWMTFJv9-NDwfZNkRunpnZbIVvW8BW935_kyRW1YPb0bAbqgfLbROw4N_gCdpKHApwXWyj_2kT0tMCCzwjeqXEQhQLpTpaccsGg89OGIN2fTjB0B2CxSAVR4l7uqIGv5d6WZeaoDjPL7lyUQes4VzScB4HE2eHBY0dO4842VuLmnc6sXKxXIvfpl8GbUF0cBrZTJaDKrvW7DqkZ-pUNQZwXoGW3QorGjCVphJTbKpHwdBTx1pnu1g1i7CFihZUukS6XYSUC_WWXo5r20yP2Pm25DbvDkxvOK_ip7WJUTmsOzeGwarZWbxslHPNY8tykRTRcWZXMYYRZXLafobN6DhEo8pSUlPcVtSqQ79c-9kXDdE-fOaRmQYijaBwTz3S_-5Zd2cMoEBAEvvZxJauE7ilNyz5sgskF9CgvGYY89IFIMY_4VdrJ1QU-9485k0ogY1ooLPrvJPr2ISbbXPfvwdaf-QETbNGtlx2I3tRfR8Akx1IN__1qa5siWzuAR4_SbnAXz_NXFtUIghdRTbJ6Rivk3KEhMI%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Hazte una cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6260ccc1-a689-4f58-8295-1f8b2c925148",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Hazte una cuenta",
+      "targets": [
+        ["linkText=Hazte una cuenta", "linkText"],
+        ["css=.a83ed08757:nth-child(5)", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=es&aid=304142&bkng_action=index&prompt=signin&state=UpcDTQfWMTFJv9-NDwfZNkRunpnZbIVvW8BW935_kyRW1YPb0bAbqgfLbROw4N_gCdpKHApwXWyj_2kT0tMCCzwjeqXEQhQLpTpaccsGg89OGIN2fTjB0B2CxSAVR4l7uqIGv5d6WZeaoDjPL7lyUQes4VzScB4HE2eHBY0dO4842VuLmnc6sXKxXIvfpl8GbUF0cBrZTJaDKrvW7DqkZ-pUNQZwXoGW3QorGjCVphJTbKpHwdBTx1pnu1g1i7CFihZUukS6XYSUC_WWXo5r20yP2Pm25DbvDkxvOK_ip7WJUTmsOzeGwarZWbxslHPNY8tykRTRcWZXMYYRZXLafobN6DhEo8pSUlPcVtSqQ79c-9kXDdE-fOaRmQYijaBwTz3S_-5Zd2cMoEBAEvvZxJauE7ilNyz5sgskF9CgvGYY89IFIMY_4VdrJ1QU-9485k0ogY1ooLPrvJPr2ISbbXPfvwdaf-QETbNGtlx2I3tRfR8Akx1IN__1qa5siWzuAR4_SbnAXz_NXFtUIghdRTbJ6Rivk3KEhMI%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Hazte una cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0491ab74-6b46-46a8-bb02-8cbb5b959bfb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a83ed08757:nth-child(5) > .e4adce92df",
+      "targets": [
+        ["css=.a83ed08757:nth-child(5) > .e4adce92df", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hazte una cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed71ab4-fb0a-457a-a371-172150a2079e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a83ed08757:nth-child(5) > .e4adce92df",
+      "targets": [
+        ["css=.a83ed08757:nth-child(5) > .e4adce92df", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hazte una cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e935a10-59c6-4f30-a548-1d6bc6d11468",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testingrupo06@gmail.com"
+    }, {
+      "id": "47f317f7-63cd-4c48-bd08-45e0d70f8851",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ut3prtt_wDsi7NM_83Jc > .yfCvx60qsR50VNBG15jF",
+      "targets": [
+        ["css=.Ut3prtt_wDsi7NM_83Jc > .yfCvx60qsR50VNBG15jF", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continuar con e-mail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9bb5205-9015-4a18-896a-f19098eba431",
+      "comment": "",
+      "command": "type",
+      "target": "id=new_password",
+      "targets": [
+        ["id=new_password", "id"],
+        ["name=new_password", "name"],
+        ["css=#new_password", "css:finder"],
+        ["xpath=//input[@id='new_password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Testing2023*"
+    }, {
+      "id": "5276bff9-f063-4603-81bd-1f7bdf98d762",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmed_password",
+      "targets": [
+        ["id=confirmed_password", "id"],
+        ["name=confirmed_password", "name"],
+        ["css=#confirmed_password", "css:finder"],
+        ["xpath=//input[@id='confirmed_password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79473b8a-c97b-4812-b49b-c76672aa909c",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmed_password",
+      "targets": [
+        ["id=confirmed_password", "id"],
+        ["name=confirmed_password", "name"],
+        ["css=#confirmed_password", "css:finder"],
+        ["xpath=//input[@id='confirmed_password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Testing2023*"
+    }, {
+      "id": "90238b7e-4dde-41ee-b9d7-ee5262015c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ut3prtt_wDsi7NM_83Jc > .yfCvx60qsR50VNBG15jF",
+      "targets": [
+        ["css=.Ut3prtt_wDsi7NM_83Jc > .yfCvx60qsR50VNBG15jF", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Crear una cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0585b3e4-4c15-4981-ae3c-fe328582fb75",
+    "name": "Alquiler coches",
+    "commands": [{
+      "id": "fa091470-4faf-42b3-8986-6c91361a1674",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQ_YAQHoAQGIAgGoAgO4AoC9uqcGwAIB0gIkODU2M2ZmNmMtMjc0Yy00ZTU0LWJmNzItMDZiNjhjMjE4OTFi2AIF4AIB&sid=e298cfe8a76cf90e05886eb19e33e83c&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbe52b1b-93d8-423c-a44a-e88c1bfa1757",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3faa5f45-99c4-494a-8859-db3e9f2a20da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.b0e3176faf",
+      "targets": [
+        ["css=.b0e3176faf", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[3]/div/header/nav/div[2]/div/span/button/span/div/div[2]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8df63b5-836c-42e0-ba40-98d9db089db2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=cars",
+      "targets": [
+        ["id=cars", "id"],
+        ["linkText=Alquiler de coches", "linkText"],
+        ["css=#cars", "css:finder"],
+        ["xpath=//a[@id='cars']", "xpath:attributes"],
+        ["xpath=//body[@id='b2indexPage']/div[3]/div/header/nav[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.booking.com/cars/index.es.html?adplat=cross_product_bar&aid=304142&label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQ_YAQHoAQGIAgGoAgO4AoC9uqcGwAIB0gIkODU2M2ZmNmMtMjc0Yy00ZTU0LWJmNzItMDZiNjhjMjE4OTFi2AIF4AIB&sid=c6dfc24a4ffb9235b05fe36241867260&')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alquiler de coches')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ca3b0d8-ae9a-4060-bfb1-09fe553f7066",
+      "comment": "",
+      "command": "click",
+      "target": "id=cars",
+      "targets": [
+        ["id=cars", "id"],
+        ["linkText=Alquiler de coches", "linkText"],
+        ["css=#cars", "css:finder"],
+        ["xpath=//a[@id='cars']", "xpath:attributes"],
+        ["xpath=//body[@id='b2indexPage']/div[3]/div/header/nav[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.booking.com/cars/index.es.html?adplat=cross_product_bar&aid=304142&label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQ_YAQHoAQGIAgGoAgO4AoC9uqcGwAIB0gIkODU2M2ZmNmMtMjc0Yy00ZTU0LWJmNzItMDZiNjhjMjE4OTFi2AIF4AIB&sid=c6dfc24a4ffb9235b05fe36241867260&')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alquiler de coches')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0234f46f-4369-424c-92ef-0022f3c8f753",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbc-fl-text-input__label",
+      "targets": [
+        ["css=.sbc-fl-text-input__label", "css:finder"],
+        ["xpath=//body[@id='b2runway_internal_actionPage']/div[3]/main/div[2]/div/div/div/div/div/div[2]/div/div/div/div/span/div/div/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Lugar de recogida')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "778fbe52-9095-4ad0-b08b-76af4ef37373",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchbox-toolbox-fts-pickup",
+      "targets": [
+        ["id=searchbox-toolbox-fts-pickup", "id"],
+        ["css=#searchbox-toolbox-fts-pickup", "css:finder"],
+        ["xpath=//input[@id='searchbox-toolbox-fts-pickup']", "xpath:attributes"],
+        ["xpath=//body[@id='b2runway_internal_actionPage']/div[3]/main/div[2]/div/div/div/div/div/div[2]/div/div/div/div/span/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bogot"
+    }, {
+      "id": "0508178b-dbe6-41b6-8a4a-be0e6bd9ed8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchbox-toolbox-fts-pickup-suggestion-0 .LPCM_b8de4613",
+      "targets": [
+        ["css=#searchbox-toolbox-fts-pickup-suggestion-0 .LPCM_b8de4613", "css:finder"],
+        ["xpath=//li[@id='searchbox-toolbox-fts-pickup-suggestion-0']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970bcb68-570a-4f8b-90cc-9e9b15437f9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LPCM_92786005",
+      "targets": [
+        ["css=.LPCM_92786005", "css:finder"],
+        ["xpath=//body[@id='b2runway_internal_actionPage']/div[3]/main/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div[3]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c86ebcc5-589b-4fa2-bc24-406f393fc096",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5",
+      "targets": [
+        ["css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div[2]/div/div[2]/div/div[3]/div/div/div[7]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f2bb7e-14e0-4853-862b-46f13ab1f026",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5",
+      "targets": [
+        ["css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div[2]/div/div[2]/div/div[3]/div/div/div[7]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/span/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8869",
+      "windowTimeout": 2000
+    }, {
+      "id": "eb533fa1-be99-433f-883c-c2ed1712fdd4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f69ae06-85b1-4e31-96b6-0a349d9a5e1d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8869}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdac2e0f-1e6d-4855-9d0e-2cd4eec1317e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "551c85a6-71c2-4fe0-b957-0a738ac4254d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5",
+      "targets": [
+        ["css=.SM_037a196b:nth-child(1) > .SM_b770f0b1 > .SM_c9e10079 .SM_6839f7e5", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div[2]/div/div[2]/div/div[3]/div/div/div[7]/button/span/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0191472a-586d-4236-ae53-7d4f36b4048d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8869}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2a77a80-0402-4a30-96e4-a3f51f0ff37e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IM_35550613:nth-child(1) .IM_f48a68a6",
+      "targets": [
+        ["css=.IM_35550613:nth-child(1) .IM_f48a68a6", "css:finder"],
+        ["xpath=//div[@id='insurance-portal-root']/div/div/div/div/div[4]/div/div/div/div/button/span/div/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0ba08165-cccd-45fd-b22f-2e6d58f4e96e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c98bb25a-380b-46fb-bef9-3791ab4ba04f"]
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}

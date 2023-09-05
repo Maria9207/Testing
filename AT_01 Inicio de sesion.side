@@ -1,0 +1,144 @@
+{
+  "id": "35e8e089-a66f-4fb3-9920-d66edaa3d735",
+  "version": "2.0",
+  "name": "Ana_Castellon_booking_autotest",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "c65c4e5c-b927-446a-bddd-d67fd33816f4",
+    "name": "01_Inicio de sesión no exitoso",
+    "commands": [{
+      "id": "52d6af6e-4c3a-481e-b79f-01f8eea1d372",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Ap2Rv6cGwAIB0gIkNjcwNjIxMDEtZDRjYi00YmMyLWI4MzYtZjczODVjOWFiNjNk2AIF4AIB&sid=c82a026621db796574bb0887adbdb540&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab0c0b9a-7374-47c5-bfb8-24fcd982b421",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d83861a-b447-447a-9310-bd613aa21879",
+      "comment": "",
+      "command": "click",
+      "target": "css=.google-one-tap",
+      "targets": [
+        ["css=.google-one-tap", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[16]", "xpath:idRelative"],
+        ["xpath=//body/div[16]", "xpath:position"],
+        ["xpath=//div[contains(.,'¡Inicia sesión para conseguir descuentos y ofertas!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c83c20a-18a9-4816-bf23-caaa7819d38f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "229a98da-c598-42e3-a019-95d3e1d6c813",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6805bcea-c9d1-40ec-af20-b4d169adaee8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-header-login-link:nth-child(1) > .e4adce92df",
+      "targets": [
+        ["css=.js-header-login-link:nth-child(1) > .e4adce92df", "css:finder"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af62233-988a-4b96-9dc2-bd2013e2a60e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "constelacion217@gmail.com"
+    }, {
+      "id": "97b7826f-0f91-4fcb-a214-97ae76535617",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ut3prtt_wDsi7NM_83Jc",
+      "targets": [
+        ["css=.Ut3prtt_wDsi7NM_83Jc", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar con e-mail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8167c3-99e8-4918-88aa-4af0ab355561",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Ozono43*"
+    }, {
+      "id": "b42c0c20-a3ed-43e4-bdb6-ab1ff4bbed8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ut3prtt_wDsi7NM_83Jc",
+      "targets": [
+        ["css=.Ut3prtt_wDsi7NM_83Jc", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3f043b2-ee6f-4ed3-af1c-1ca42f018bfc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=password-note",
+      "targets": [
+        ["id=password-note", "id"],
+        ["css=#password-note", "css:finder"],
+        ["xpath=//div[@id='password-note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div/div/form/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "¡Vaya! Esta contraseña parece incorrecta; inténtalo de nuevo o usa un enlace de verificación"
+    }]
+  }],
+  "suites": [{
+    "id": "ee82b8e2-d5ef-434c-8f18-79022455b26f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}

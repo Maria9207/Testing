@@ -1,0 +1,90 @@
+{
+  "id": "496ded55-7582-4df8-9fb0-524b6996287d",
+  "version": "2.0",
+  "name": "Booking",
+  "url": "https://www.booking.com/",
+  "tests": [{
+    "id": "b2215cca-78f3-44ba-9705-1cc301fabeaa",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "b9ab1130-9e3f-4e0c-87c0-97cabf42d1b2",
+    "name": "Test 01_ hoteles Booking",
+    "commands": [{
+      "id": "bc2230ac-573a-43ff-a8d5-eed34368bd2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Au30v6cGwAIB0gIkYjkwYjg2ODEtYWRkZS00YWUxLWJkZjYtMGVkNzZjZmY3YmE32AIF4AIB&sid=35b43de9e95217247013e868de1ec174&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "894a43f0-2e4c-4f16-be30-6ca61eb3db14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3fbbea9-fe44-4092-927c-3b4bc7831ae9",
+      "comment": "",
+      "command": "click",
+      "target": "id=accommodations",
+      "targets": [
+        ["id=accommodations", "id"],
+        ["linkText=Alojamiento", "linkText"],
+        ["css=#accommodations", "css:finder"],
+        ["xpath=//a[@id='accommodations']", "xpath:attributes"],
+        ["xpath=//body[@id='b2indexPage']/div[2]/div/header/nav[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.booking.com/index.es.html?aid=304142&label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Au30v6cGwAIB0gIkYjkwYjg2ODEtYWRkZS00YWUxLWJkZjYtMGVkNzZjZmY3YmE32AIF4AIB&sid=049ad445bc3d06b9f6f1aaad1ea90dad&')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alojamiento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb42e157-46f5-4523-ba87-9763405b51c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d2529514af > .e4adce92df",
+      "targets": [
+        ["css=.d2529514af > .e4adce92df", "css:finder"],
+        ["xpath=//div[@id='indexsearch']/div[2]/div/form/div/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "844c9ccb-d672-4882-892d-f7762029e6dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d2529514af > .e4adce92df",
+      "targets": [
+        ["css=.d2529514af > .e4adce92df", "css:finder"],
+        ["xpath=//div[@id='bodyconstraint-inner']/div[2]/div/div/div/form/div/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd6e80ff-a18c-4d57-9fa5-30af3bc61c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.df7e6ba27d",
+      "targets": [
+        ["css=.df7e6ba27d", "css:finder"],
+        ["xpath=//div[@id='bodyconstraint-inner']/div[2]/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8bbfa118-82f2-44a9-8547-af126c2fd3f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b2215cca-78f3-44ba-9705-1cc301fabeaa"]
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ab484999-a905-4915-a37b-29fada18ad27",
+  "version": "2.0",
+  "name": "Actividad 25: Actividad Selenium-MÓDULO 17",
+  "url": "https://www.booking.com",
+  "tests": [{
+    "id": "f0324e96-3d4e-4c5f-a583-447aae7145df",
+    "name": "Realizar una búsqueda de destinos de moda",
+    "commands": [{
+      "id": "7d46e15d-4a6f-432a-b728-f89aae72df50",
+      "comment": "",
+      "command": "open",
+      "target": "/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4Avb6vqcGwAIB0gIkNThmZjM1MjQtMDM2Zi00NjVlLTkyODYtNzNhZjNlMTY4ZDVl2AIF4AIB&sid=d182a8f84e866712bb7c8eec2d2ba6a9&keep_landing=1&sb_price_type=total&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d110a51-2d17-4ca6-a114-9db324abdc9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77be918a-8bec-4a8a-a271-c0fddc8e3530",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,361)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3be9d82d-455f-4a1f-b20b-70b2a4324677",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//img[contains(@src,'https://cf.bstatic.com/xdata/images/city/170x136/652924.jpg?k=f0a48e91f55098e6d16a361a0d7ba12726a056ff85f92ff616af0feb388024da&o=')]",
+      "targets": [
+        ["xpath=//img[contains(@src,'https://cf.bstatic.com/xdata/images/city/170x136/652924.jpg?k=f0a48e91f55098e6d16a361a0d7ba12726a056ff85f92ff616af0feb388024da&o=')]", "xpath:img"],
+        ["xpath=//ul[@id=':rk:']/li/a/div/div/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fbd709c-2809-4b5c-a305-5fc9585bfa91",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[contains(@src,'https://cf.bstatic.com/xdata/images/city/170x136/652924.jpg?k=f0a48e91f55098e6d16a361a0d7ba12726a056ff85f92ff616af0feb388024da&o=')]",
+      "targets": [
+        ["xpath=//img[contains(@src,'https://cf.bstatic.com/xdata/images/city/170x136/652924.jpg?k=f0a48e91f55098e6d16a361a0d7ba12726a056ff85f92ff616af0feb388024da&o=')]", "xpath:img"],
+        ["xpath=//ul[@id=':rk:']/li/a/div/div/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c6cf9c-5b3e-4142-81d6-0fa7057daff7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,643)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1426893e-995a-4d8f-825a-87a4ae056d0c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "798e5fe2-0447-4666-a82c-f56ed9088948",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2191)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef618737-0791-48d9-ba4c-7d408e7fbbba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e45dac87-bc98-4f64-b00f-2161ff1ab7ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6740)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5e9a445a-b75b-46ee-8191-b1774842f0c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f0324e96-3d4e-4c5f-a583-447aae7145df"]
+  }],
+  "urls": ["https://www.booking.com/"],
+  "plugins": []
+}
